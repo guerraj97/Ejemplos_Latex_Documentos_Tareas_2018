@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc} 
+\usepackage{amsmath} %importa simbolos
+\usepackage[spanish]{babel} %coloca las etitquetas de latex en español
+\usepackage{vmargin} %adecua los margenes
+\title{Titulo aqui} %Titulo de la tarea o documento
+\author{Autor} %nombre del autor o identificacion
+
+\date{Mayo 2018} %fecha, si se agrega \today entonces coloca la fecha de hoy
+
+\begin{document}
+\maketitle
+
+\section{Introduccion} %notese que la \section no tiene asterisco y las otras si. esto se puede dar para no numerar las secciones
+%es al gusto del usuario. 
+
+
+\section*{Ejercicio 1} 
+
+Aqui el contenido seccion 1
+
+\section*{Ejerccio 2}
+
+\section*{Ejercicio 3}
+
+\end{document}
